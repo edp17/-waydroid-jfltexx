@@ -1,10 +1,10 @@
-# Waydroid-treltexx Sailfish OS packaging
+# Waydroid-jfltexx Sailfish OS packaging
 
 ## User Usage
 
 * Install `waydroid` and `waydroid-settings` packages.
 * As root (devel-su) run the command `waydroid init` which will download the required root filesystems. See `waydroid init -h` for the list of available images.
-* Install `waydroid-treltexx` package.
+* Install `waydroid-jfltexx` package.
 * Reboot (container service will start next boot).
 
 If using *waydroid-settings*:

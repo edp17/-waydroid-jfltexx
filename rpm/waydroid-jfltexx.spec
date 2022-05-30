@@ -1,9 +1,9 @@
-Name:           waydroid-treltexx
+Name:           waydroid-jfltexx
 Version:        1.0.0
 Release:        1
-Summary:        Waydroid-treltexx installs the Galaxy Note 4 (treltexx) specific vendor.img, Waydroid.cfg and Waydroid_base.prop.
+Summary:        Waydroid-jfltexx installs the Galaxy S4 (jfltexx) specific vendor.img, Waydroid.cfg and Waydroid_base.prop.
 License:        GPLv3
-URL:            https://github.com/edp17/waydroid-treltexx
+URL:            https://github.com/edp17/waydroid-jfltexx
 BuildArch:      noarch
 Source0:        %{name}-%{version}.tar.gz
 
@@ -18,7 +18,7 @@ The Android system inside the container has direct access to any needed hardware
 
 The Android runtime environment ships with a minimal customized Android system image based on LineageOS. The image is currently based on Android 10.
 
-Waydroid-treltexx installs the Galaxy Note 4 (treltexx) specific vendor.img, Waydroid.cfg and Waydroid_base.prop.
+Waydroid-jfltexx installs the Galaxy S4 (jfltexx) specific vendor.img, Waydroid.cfg and Waydroid_base.prop.
 
 %prep
 %setup
