@@ -6,10 +6,10 @@ waydroid.system_ota=https://raw.githubusercontent.com/waydroid/OTA/master/system
 waydroid.vendor_ota=https://raw.githubusercontent.com/waydroid/OTA/master/vendor/waydroid_arm/MAINLINE.json
 waydroid.tools_version=1.1.0
 ro.vndk.lite=true
-ro.hardware.camera=universal5433
-ro.hardware.camera.vendor=universal5433
+#ro.hardware.camera=universal5433
+#ro.hardware.camera.vendor=universal5433
 
-waydroid.host.user=nemo
+waydroid.host.user=defaultuser
 waydroid.host.uid=100000
 waydroid.host.gid=100000
 waydroid.xdg_runtime_dir=/run/user/100000

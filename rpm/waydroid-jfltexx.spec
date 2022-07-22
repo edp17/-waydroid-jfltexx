@@ -4,7 +4,6 @@ Release:        1
 Summary:        Waydroid-jfltexx installs the Galaxy S4 (jfltexx) specific vendor.img, Waydroid.cfg and Waydroid_base.prop.
 License:        GPLv3
 URL:            https://github.com/edp17/waydroid-jfltexx
-BuildArch:      noarch
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  systemd
@@ -32,6 +31,7 @@ install -D -m666 config/waydroid.cfg %{buildroot}/home/waydroid/waydroid.cfg
 install -D -m644 config/waydroid.prop %{buildroot}/home/waydroid/waydroid.prop
 install -D -m644 config/waydroid_base.prop %{buildroot}/home/waydroid/waydroid_base.prop
 install -D -m666 config/config_nodes %{buildroot}/home/waydroid/lxc/waydroid/config_nodes
+install -D -m666 config/config %{buildroot}/home/waydroid/lxc/waydroid/config
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -50,3 +50,4 @@ chmod 777 /home/waydroid
 /home/waydroid/waydroid.prop
 /home/waydroid/waydroid_base.prop
 /home/waydroid/lxc/waydroid/config_nodes
+/home/waydroid/lxc/waydroid/config
